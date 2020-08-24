@@ -18,6 +18,7 @@ namespace halcon封装
         // 图片
         string address;
         int Addindex = 0;
+        int a;
         string[] addressArray = { "../../../../image/", ".bmp.tif" };
         int[] addressIndex = { 0, 1, 2, 3, 4 };
         private static HWindow hwin; //全局窗口变量
